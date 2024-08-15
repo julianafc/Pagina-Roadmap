@@ -1,0 +1,19 @@
+html {
+    background-color: #232830;
+    max-width: 1682px;
+}
+
+.link-header {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
