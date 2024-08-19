@@ -1,6 +1,7 @@
 html {
     background-color: #232830;
     max-width: 1682px;
+    box-sizing: border-box;
 }
 
 .link-header {
@@ -19,6 +20,7 @@ html {
     overflow: hidden;
     font-size: 15px;
     font-family: "poppins", sans-serif;
+    padding: 0px 28px;
 }
 
 #menu a {
@@ -84,14 +86,37 @@ div {
     box-sizing: border-box;
 }
 
+#articles-listing {
+    border: solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .articles {
     width: 390px;
     height: 439px;
     background-color: white;
     border: solid white;
     border-radius: 22px;
-    text-align: center;
+    text-align: left;
     padding: 26px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    margin: 19px;
+
+    p {
+        padding-bottom: 10px;
+    }
+}
+
+.fixed-bottom {
+    position: absolute;
+    bottom: 26px;
+    left: 26px;
+    right: 26px;
+    margin: 0;
 }
 
 footer {
