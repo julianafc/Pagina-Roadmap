@@ -9,10 +9,27 @@ html {
     padding-right: 20px;
 }
 
-nav {
-    text-align: right;
+#link-name {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+#menu {
+    overflow: hidden;
     font-size: 15px;
     font-family: "poppins", sans-serif;
+}
+
+#menu a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+#header-right {
+    float: right;
 }
 
 #logo {
