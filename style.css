@@ -21,6 +21,10 @@ html {
     font-size: 15px;
     font-family: "poppins", sans-serif;
     padding: 0px 28px;
+
+    a {
+        display: inline-block;
+    }
 }
 
 #menu a {
@@ -67,7 +71,7 @@ hr {
     font-family: "Recursive", sans-serif;
     font-style: italic;
     text-align: center;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 #category-listing a {
@@ -87,7 +91,6 @@ div {
 }
 
 #articles-listing {
-    border: solid red;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -119,8 +122,39 @@ div {
     margin: 0;
 }
 
+#pagination {
+    font-family: "Recursive", sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 50px 0;
+}
+
+#pagination a {
+    color: #4D4D4D;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#pagination a:hover {
+    color: #FF7575;
+}
+
+#highlight {
+    color: #FF7575;
+    border-top: #FF7575;
+}
+
 footer {
     color: white;
     text-align: center;
     font-family: "poppins", sans-serif;
+    vertical-align: bottom;
+
+    div,
+    p,
+    a {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
 }
